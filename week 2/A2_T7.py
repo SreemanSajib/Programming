@@ -12,4 +12,5 @@ Celcius = (Temp - 32) /1.8
 Celcius = round(Celcius, 1)
 # 50.0°F is 10.0°C
 print(f"{Temp}°F is {Celcius}°C")
+# Program ending.
 print("Program ending.")
