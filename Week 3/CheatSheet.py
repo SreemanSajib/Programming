@@ -63,6 +63,13 @@ if(Town== "Lahti" and Street == "Mukkulankatu" and Building == 19):
 elif(Town =="Lahti" and (Street != "Mukkulankatu" or Building != 19)):
     print("You are in the correct town, but check the street address")
 elif not(Town == "Lahti" and Street == "Mukkulankatu" and Building ==19):
-    print("You are completely lost!")    
+    print("You are completely lost!")   
+
+
+import random
+
+print(random.random())
+RandomInteger = random.randint(1,10)
+print(RandomInteger)
 
 
