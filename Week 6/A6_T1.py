@@ -13,7 +13,7 @@ def main() -> None:
     print("This program can read a file")
     Filename= input("Insert filename: ")
     FileContent = readFile(Filename)  #Jump to readFile function and send
-    print("#### START \"{}\" ####".FORMAT(Filename))
+    print("#### START \"{}\" ####".format(Filename))
     print(FileContent)
     print("#### END \"{}\" ####".format(Filename))
     print("Program ending.")
